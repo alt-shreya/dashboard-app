@@ -1,0 +1,25 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard app to track my tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alt-shreya/dashboard-app.git"
+  },
+  "keywords": [
+    "productivity"
+  ],
+  "author": "alt-shreya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alt-shreya/dashboard-app/issues"
+  },
+  "homepage": "https://github.com/alt-shreya/dashboard-app#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
