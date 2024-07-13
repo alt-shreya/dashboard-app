@@ -4,7 +4,7 @@ import { Box, Card, CardHeader, CardBody, SimpleGrid, Heading, Text, Divider, Bu
 
 function Timeline() {
     return (
-        <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))' bg="pink" mt="20px" height="230px">
+        <SimpleGrid  spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))' bg="pink" mt="20px" height="230px" ml="10px">
   <Card>
     <CardHeader>
       <Heading size='md'> Projects Timeline</Heading>

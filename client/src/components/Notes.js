@@ -1,8 +1,8 @@
 import { Textarea, Card, CardHeader, CardBody, SimpleGrid, Heading, Text, Button, Image, CardFooter} from '@chakra-ui/react';
 
-function FocusTasks() {
+function Notes() {
     return (
-        <SimpleGrid width = "300px"spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))' bg="pink" mt="20px">
+        <SimpleGrid height="500px" width = "300px"spacing={4} templateColumns='repeat(auto-fill, minmax(200px, 1fr))' bg="pink" mt="20px">
   <Card>
     <CardHeader>
       <Heading size='md'> Notes </Heading>
@@ -19,4 +19,4 @@ function FocusTasks() {
     )
 }
 
-export default FocusTasks;
+export default Notes;
