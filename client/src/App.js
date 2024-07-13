@@ -1,6 +1,8 @@
 import './App.css';
 import { Box, Flex, Heading, Text, VStack } from '@chakra-ui/react';
 import Tasks from './components/Tasks';
+import FocusTasks from './components/FocusTasks';
+import Calendar from './components/Calendar';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       </Box>
       <Box width="80%" p={4}>
         <Heading>Main Content Area</Heading>
+        <FocusTasks/>
+        <Calendar/>
       </Box>
     </Flex>
     </div>
