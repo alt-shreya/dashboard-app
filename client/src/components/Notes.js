@@ -8,7 +8,7 @@ function FocusTasks() {
       <Heading size='md'> Notes </Heading>
     </CardHeader>
     <CardBody>
-    <Textarea placeholder='Here is a sample placeholder' />
+    <Textarea rows="10" cols="30" placeholder='Here is a sample placeholder' />
       <Text>View a summary of all your customers over the last month.</Text>
     </CardBody>
     <CardFooter>
