@@ -2,7 +2,9 @@ import './App.css';
 import { Box, Flex, Heading, Text, VStack } from '@chakra-ui/react';
 import Tasks from './components/Tasks';
 import FocusTasks from './components/FocusTasks';
-import Calendar from './components/Calendar';
+import Timeline from './components/Timeline';
+import Notes from './components/Notes';
+
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Box width="80%" p={4}>
         <Heading>Main Content Area</Heading>
         <FocusTasks/>
-        <Calendar/>
+        <Timeline/>
+        <Notes/>
+
       </Box>
     </Flex>
     </div>
